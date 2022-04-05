@@ -1,12 +1,12 @@
 package com.drafael.springboot.webflux.app;
 
+
 import com.drafael.springboot.webflux.app.models.documents.Categoria;
 import com.drafael.springboot.webflux.app.models.documents.Producto;
 import com.drafael.springboot.webflux.app.models.services.ProductoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
