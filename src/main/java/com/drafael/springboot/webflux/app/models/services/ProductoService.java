@@ -25,4 +25,10 @@ public interface ProductoService {
 	
 	public Mono<Categoria> saveCategoria(Categoria categoria);
 
+	//customize
+	public Mono<Producto> findByNombre(String nombre);
+
+	public Mono<Categoria> findCategoriaByNombre(String nombre);
+
+
 }
